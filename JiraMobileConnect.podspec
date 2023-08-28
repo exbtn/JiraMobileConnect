@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = '**/CrashReporter.framework'
   s.compiler_flags = '-fno-objc-arc'
 
-  s.frameworks = 'Foundation', 'UIKit', 'CoreGraphics', 'CFNetwork', 'SystemConfiguration', 'MobileCoreServices', 'CoreGraphics', 'AVFoundation', 'CoreLocation', 'libsqlite3'
+  s.frameworks = 'Foundation', 'UIKit', 'CoreGraphics', 'CFNetwork', 'SystemConfiguration', 'MobileCoreServices', 'CoreGraphics', 'AVFoundation', 'CoreLocation'
 
 end
